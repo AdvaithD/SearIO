@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 50px 100px;
+grid-template-rows: 100px 30px;
+}
+
+.red {
+  border-color: red;
+}
+.title {
+letter-spacing: 3px;
+font-size: 64px;
+font-family: 'Roboto', sans-serif;
+}
+
+.hero.is-success {
+  background-color: #181818;
+}
